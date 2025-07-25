@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.13)
-SET(CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/CMake")
+SET(CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/CMake;${CMAKE_MODULE_PATH}")
 project(Matrix_Orbital_EVE_examples)
 include(CMake/macros.cmake)
 if(UNIX)
